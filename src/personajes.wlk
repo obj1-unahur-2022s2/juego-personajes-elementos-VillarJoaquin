@@ -20,10 +20,12 @@ object mario{
 	method encontrar(elemento){
 		valorRecolectado += elemento.valorOtorgado()
 		elemento.recibirTrabajo()
-		ultimoElementoVisitado = elemento	
-		
+		ultimoElementoVisitado = elemento			
 	}
 	method estaFeliz() = valorRecolectado >= 50 || ultimoElementoVisitado.altura() >= 10 
+	method valorRecolectado() = valorRecolectado
 }
 
 
+
+token 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
